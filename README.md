@@ -85,3 +85,4 @@ Tools tambahan
 Ngrok / LocalTunnel (untuk testing API online)
 
 Git Bash (push project ke GitHub)
+LINK APK https://drive.google.com/drive/folders/1FbkyaPmBX9a9XqZODXxvJVwOVkgmW4mj?usp=drive_link
