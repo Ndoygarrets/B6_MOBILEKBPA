@@ -60,7 +60,7 @@ class _OnboardingPage6State extends State<OnboardingPage6> {
     try {
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://192.168.100.86:8000/api/predict/'),
+        Uri.parse('https://guitarvischord.loca.lt/api/predict/'),
       );
 
       request.files.add(await http.MultipartFile.fromPath('image', selectedImage!.path));

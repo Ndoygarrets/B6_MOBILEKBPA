@@ -25,13 +25,13 @@ SECRET_KEY = 'django-insecure-6rso(aegoi6l14vrn1az=x*yp&!=dhr9q^hqswd3nj8gbrphi)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.131.192.43', 'localhost', '127.0.0.1','172.20.10.3','10.94.187.43','192.168.1.19','192.168.100.86']
+ALLOWED_HOSTS = ['guitarvischord.loca.lt']
 
 
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

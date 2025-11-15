@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ApiService {
-  static const String baseUrl = "http://192.168.100.86:8000/api/predict/"; // Ganti sesuai IP server Django kamu
+  static const String baseUrl = "https://guitarvischord.loca.lt/api/predict/"; // Ganti sesuai IP server Django kamu
 
   static Future<String> uploadImageAndDetectChord(File imageFile) async {
     var request = http.MultipartRequest('POST', Uri.parse('$baseUrl/detect/'));
